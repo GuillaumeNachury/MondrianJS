@@ -1,0 +1,9 @@
+{
+  "name": "mondrianjs",
+  "version": "0.0.1",
+  "description": "A distributed/decentralized micro frontend engine",
+  "main": "index.js",
+  "repository": "https://github.com/GuillaumeNachury/MondrianJS.git",
+  "author": "__Guillaume <guillame.nachury@gmail.com>",
+  "license": "MIT"
+}
