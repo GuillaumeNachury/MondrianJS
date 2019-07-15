@@ -89,4 +89,4 @@ Preload some remote modules. The `target` can either be an object or an Array. T
 
 
 ## Sample application
-see ([MondrianJS-React](https://github.com/GuillaumeNachury/MondrianJS-React)) 
+see ([MondrianJS-React Wrapper](https://github.com/GuillaumeNachury/MondrianJS-React)) or [MondrianJS-ReactAppExample](https://github.com/GuillaumeNachury/MondrianJS-ReactAppExample)

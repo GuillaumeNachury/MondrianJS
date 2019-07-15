@@ -1,6 +1,6 @@
 {
   "name": "mondrianjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A distributed/decentralized micro frontend engine",
   "main": "index.js",
   "repository": "https://github.com/GuillaumeNachury/MondrianJS.git",
