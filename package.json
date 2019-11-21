@@ -8,5 +8,19 @@
   "license": "MIT",
   "dependencies": {
     "promise-polyfill": "^8.1.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "scripts": {
+    "build": "babel . --ignore node_modules,lib,__img --out-dir lib"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
   }
 }
