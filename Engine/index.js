@@ -2,6 +2,9 @@
  * MondrianJS - Core class
  * @author: Guillaume Nachury
  */
+
+import Promise from "promise-polyfill";
+
 export default class Mondrian{
 
     constructor({endpoints, depsMap, verbose = false}){
@@ -77,6 +80,8 @@ export default class Mondrian{
 
             if(this.verbose) console.log(`LOAD REQUEST : ${_id}`);
             if(this.verbose) console.log(`LOAD STATUS : ${_storedEntity.loaderStatus}`);
+
+            const fetch = 'fetch' in window ? window.fetch : require('./fetch.js').fetch; 
 
             if(_storedEntity.loaderStatus === -1){
                 fetch(_id)

@@ -1,9 +1,12 @@
 {
   "name": "mondrianjs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A distributed/decentralized micro frontend engine",
   "main": "index.js",
   "repository": "https://github.com/GuillaumeNachury/MondrianJS.git",
   "author": "__Guillaume <guillame.nachury@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "promise-polyfill": "^8.1.3"
+  }
 }
